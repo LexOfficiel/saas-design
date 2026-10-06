@@ -1,0 +1,8 @@
+/* Swarme: make the reference's pale signup consent text readable. */
+.signin-terms,.signin-notice{color:var(--color-n-600)}
+.signin-tick{border-color:var(--color-n-500)}
+.signin-terms input:checked+.signin-tick{background:var(--color-main-600);border-color:var(--color-main-600);color:white}
+.signin-terms a:hover{color:var(--color-main-700)}
+.auth-status{margin-top:1rem;text-align:left}
+@media(max-width:639px){.signin-page{padding-top:5rem;padding-bottom:2rem}.signin-sky{position:fixed}}
+@media(prefers-reduced-motion:reduce){.signin-swap{animation:none}.signin-toggle-thumb{transition:none}}

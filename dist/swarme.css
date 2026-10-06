@@ -1,0 +1,8 @@
+html{scroll-behavior:smooth}
+.hero-stage.is-past .site-header.is-over-hero{background:rgba(249,253,251,.94)!important;backdrop-filter:blur(20px)!important}
+.navmobile-panel{pointer-events:none}
+.navmobile-panel.is-open{pointer-events:auto}
+#showcase.fx-in .fx-fade{opacity:1;filter:none;transform:none}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.is-handset{width:var(--handset-width);max-width:100%;margin:auto;overflow-x:clip}.is-handset body{width:100%;overflow-x:clip}.is-handset .navmobile-panel{width:var(--handset-width);right:auto;left:50%;transform:translateX(-50%)}
