@@ -1,0 +1,21 @@
+# Swarme
+
+> Projet pilote de suivi documentaire LCB-FT pour les petits cabinets comptables.
+
+Swarme est en préparation. Cette vitrine présente un MVP envisagé : fiches clients, pièces, checklist et export de dossier. Les écrans sont des illustrations du produit ; aucun accès à un logiciel de production n’est proposé.
+
+Aucun compte réel, paiement, contrôle automatique de conformité, scoring, fonction IA ou transmission à Tracfin n’est disponible depuis cette vitrine. L’hébergement des données en France est une exigence de lancement à confirmer avant l’ouverture du service.
+
+## Projet
+- [Présentation](/fr/)
+- [Demander une démo ou discuter du pilote](/fr/contact/)
+
+Contact : contact.ocremousse@gmail.com. Les liens e-mail et le formulaire de contact ouvrent volontairement un brouillon dans la messagerie du visiteur ; le site ne transmet aucun message automatiquement.
+
+## Informations
+- [Mentions légales à compléter](/fr/legal-notice/)
+- [Confidentialité de la vitrine](/fr/privacy/)
+- [Conditions du projet pilote](/fr/terms/)
+- [Cookies et traceurs](/fr/cookies/)
+
+Le projet aide à organiser et documenter le travail. Les obligations et décisions professionnelles restent à la charge du cabinet.

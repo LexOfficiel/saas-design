@@ -1,25 +1,25 @@
-# Swarme — SaaS website design
+# Swarme — LCB-FT pour les petits cabinets comptables
 
-Sauvegarde complète du site Swarme : accueil, connexion, inscription, réinitialisation de mot de passe, polices, images, CSS et JavaScript.
+La landing présente le projet Swarme pour les cabinets d’expertise comptable de 2 à 10 personnes. Les textes ont été adaptés au projet LCB-FT. La mise en page d’origine, les typographies, les couleurs, les images, les cartes et les animations sont conservées, avec les ressources Next.js locales d’origine.
 
-## Démarrer localement
-
-Avec Python installé :
+## Voir le site
 
 ```sh
 python -m http.server 8080 --directory dist
 ```
 
-Ouvrir http://localhost:8080/fr/. Les pages de compte sont disponibles sous /login/, /signup/ et /reset-password/. Le dossier `dist` est prêt pour un hébergement statique à la racine d’un domaine.
+Ouvrir http://localhost:8080/fr/. Le dossier `dist` se sert à la racine d’un hébergement statique. La landing utilise ses fichiers HTML et ses ressources Next.js compilées. `replica-lcb.js` relie les boutons de démo au contact du projet. Les pages de contact et les pages juridiques se trouvent sous `dist/fr/`.
+
+## Produit prévu
+
+La première version prévoit une fiche client, le dépôt des pièces, une checklist des diligences et l’export du registre avec les justificatifs classés. Les dossiers de la landing sont fictifs. L’application de conformité n’est pas encore construite.
+
+La lecture automatique, le scoring assisté et l’aide à la déclaration Tracfin sont envisagés dans un second temps. Le professionnel conserve la responsabilité de ses décisions et de ses obligations.
+
+Le pilote est envisagé à 99 € HT par mois, puis le tarif Cabinet à 199 € HT par mois. Les demandes de démo préparent un e-mail vers `contact.ocremousse@gmail.com` dans la messagerie du visiteur. Le visiteur doit l’envoyer lui-même.
 
 ## État du projet
 
-Les pages reproduisent l’interface de référence avec le nom Swarme. Les formulaires valident localement les champs et n’envoient ni ne stockent les mots de passe. L’authentification, Google OAuth, l’envoi de codes, le moteur GEO et l’onboarding connecté restent à implémenter. Les liens éditoriaux et les tests de visibilité renvoient encore au service d’origine.
+Cette vitrine ne traite pas de dossiers clients réels et ne crée aucun paiement ni abonnement. L’hébergement en France, le chiffrement, les accès, la journalisation et les règles de conservation restent à mettre en œuvre pour l’application. Les informations juridiques de l’éditeur sont à compléter avant l’ouverture commerciale.
 
-Cet export contient le HTML et les fichiers publics nécessaires au rendu, dont les scripts compilés. Il ne contient pas le code source original des composants Next.js ni le backend du service de référence.
-
-## Correction du rendu
-
-Le flux React Flight utilise des enregistrements texte avec une longueur UTF-8. Le changement de marque recalcule ces longueurs pour éviter l’erreur React #412. Les images et polices nécessaires au rendu sont locales.
-
-La configuration de l’hébergement ChatGPT et les identifiants d’accès sont exclus de ce dépôt.
+Les anciennes routes de la vitrine et du prototype redirigent vers la présentation actuelle. Aucune session privée ni aucun secret ne figure dans le dépôt.

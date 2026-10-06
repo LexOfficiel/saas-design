@@ -1,8 +1,33 @@
 {
-  "local_asset_files": 63,
-  "missing_assets": [],
-  "javascript_syntax": "passed",
-  "responsive_css": "original stylesheet preserved",
-  "browser_visual_qa": "unavailable: control-browser skill not installed",
-  "scope": "French homepage; application and secondary links open original Sauror service"
+  "updated": "2026-10-06",
+  "scope": "Landing Swarme LCB-FT : design d’origine restauré, textes adaptés",
+  "original_design": {
+    "html_tag_sequence": "identique à l’original",
+    "html_tags_total": 760,
+    "body_tags_excluding_head_scripts_styles": 693,
+    "images": 46,
+    "stylesheets": 2,
+    "css": "conservées ; seul un sélecteur de marque a été renommé",
+    "images_and_inline_styles": "conservés",
+    "animations": "composants d’origine conservés"
+  },
+  "browser_visual_qa": {
+    "original_appearance": "design d’origine vu dans l’aperçu",
+    "faq": "ouverture au clic vérifiée",
+    "final_text_rendering": "textes vus dans l’aperçu ; aucune nouvelle erreur console depuis la restauration",
+    "demo_button": "actif après saisie du nom du cabinet"
+  },
+  "static_checks": {
+    "reference_and_syntax_report": "work/lcb-site-audit.json dans le dossier de travail",
+    "landing_copies": "index.html, fr/index.html et faithful/fr/index.html identiques",
+    "missing_assets_or_links": [],
+    "javascript_syntax": "passed (13 scripts référencés)",
+    "flight_data": "passed (48 enregistrements sur chacune des trois landings)"
+  },
+  "product_application_built": false,
+  "real_authentication": false,
+  "real_client_documents": false,
+  "real_ai_reports": false,
+  "real_email_delivery": false,
+  "real_payments": false
 }
